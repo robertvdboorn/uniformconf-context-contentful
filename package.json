@@ -28,6 +28,7 @@
     "pull:context": "run-s pull:context:signals pull:context:enrichments pull:context:quirks pull:context:tests pull:context:aggregates"
   },
   "dependencies": {
+    "@contentful/live-preview": "^1.15.0",
     "@contentful/rich-text-react-renderer": "15.12.1",
     "@contentful/rich-text-types": "15.12.1",
     "@react-hook/window-scroll": "1.3.0",

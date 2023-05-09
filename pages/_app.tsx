@@ -1,9 +1,13 @@
 import { UniformContext } from "@uniformdev/context-react";
 import type { UniformAppProps } from "@uniformdev/context-next";
 import { createUniformContext } from "../lib/uniformContext";
+import { ContentfulLivePreview } from '@contentful/live-preview';
 import "../styles/globals.css";
+import '@contentful/live-preview/style.css';
 
 const clientContext = createUniformContext();
+
+ContentfulLivePreview.init();
 
 function UniformContextApp({
   Component,
