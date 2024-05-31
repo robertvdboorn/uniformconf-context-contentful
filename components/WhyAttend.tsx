@@ -82,6 +82,7 @@ const ImageRightCallout = ({ description, image, variant }: CalloutProps) => {
             className="w-full sm:h-64 mx-auto"
             height={373}
             width={560}
+            alt="why attend image"
           />
         ) : null}
       </div>
@@ -108,6 +109,7 @@ const ImageLeftCallout = ({ description, image, variant }: CalloutProps) => {
             className="w-5/6 sm:h-64 mx-auto"
             height={373}
             width={560}
+            alt="why attend image"
           />
         ) : null}
       </div>
